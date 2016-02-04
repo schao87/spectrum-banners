@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+img{margin-left:-1px;}
+#container {
+    position: absolute;
+    width:216px;
+    height:36px; 
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#header{
+	position: absolute;
+    width:216px;
+    height:36px;
+    display: block;
+    opacity: 0;
+    background: url("header.png");
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#bg{
+	height: 36px;
+	width: 216px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+}
+
+#frame1txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f1.png");
+	width:216px;
+    height:36px; 
+}
+#frame2txt{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f2.png");
+	width:216px;
+    height:36px; 
+    top: 5px;
+}
+#frame3txt{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f3.png");
+	width:216px;
+    height:36px; 
+    top: 5px;
+}
+#frame4txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f4.png");
+	width:216px;
+    height:36px; 
+    top: 5px;
+    opacity: 0;
+}
+#frame5txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f5.png");
+	width:216px;
+    height:36px; 
+    top: 5px;
+    opacity: 0;
+}
+#frame6txt{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f6.png");
+	width:216px;
+    height:36px;
+}
+
+#replay_icon{
+	opacity: 0;
+	position: absolute;
+}
+#replay_container{
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+}

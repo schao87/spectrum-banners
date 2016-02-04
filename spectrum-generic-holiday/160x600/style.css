@@ -1,0 +1,38 @@
+body{margin: 0px;}
+#container {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	border:solid;
+	border-color:#58585a;
+	border-width:1px;
+	overflow:hidden;
+	background-color: #007bb5;
+	background-image: url("background.jpg");
+	display: none;
+	z-index:0;
+	cursor:pointer;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+.show {
+	position: absolute;
+	top:0px;
+	left:0px;
+	display: block;
+	opacity: 1;
+}
+.hide {
+	position: absolute;	
+	top:0px;
+	left:0px;
+	opacity: 0;
+	display: none;
+}
+#replay_container{
+	height: 21px;
+	width: 19px;
+	z-index:1000;
+	cursor:pointer;
+}

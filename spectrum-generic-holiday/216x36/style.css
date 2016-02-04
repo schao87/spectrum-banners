@@ -1,0 +1,43 @@
+body{margin: 0px;}
+#container {
+	position: absolute;
+	width: 216px;
+	height: 36px;
+	border:solid;
+	border-color:#58585a;
+	border-width:1px;
+	overflow:hidden;
+	background-color: #007bb5;
+	background-image: url("background.jpg");
+	display: none;
+	z-index:0;
+	cursor:pointer;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;	
+}
+.show {
+	position: absolute;
+	top:0px;
+	left:0px;
+	display: block;
+	opacity: 1;
+}
+.hide {
+	position: absolute;	
+	top:0px;
+	left:0px;
+	opacity: 0;
+	display: none;
+}
+#replay_icon{
+	position: absolute;
+	
+}
+#replay_container{
+	height: 15px;
+	width: 15px;
+	z-index:1000;
+	padding: 3px;
+	cursor:pointer;
+}

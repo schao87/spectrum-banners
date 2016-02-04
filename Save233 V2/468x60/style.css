@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+img{margin-left:-1px;}
+#container {
+    position: absolute;
+    width:468px;
+    height:60px; 
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#header{
+	position: absolute;
+    width:468px;
+    height:60px;
+    top: -2px;
+    display: block;
+    background: url("header.png");
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#bg{
+	height: 60px;
+	width: 468px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: absolute;
+}
+
+#frame1txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f1.png");
+	width:468px;
+    height:60px; 
+}
+#frame2txt{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f2.png");
+	width:468px;
+    height:60px; 
+    top: 5px;
+}
+#frame3txt{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f3.png");
+	width:468px;
+    height:60px; 
+    top: 5px;
+}
+#frame4txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f4.png");
+	width:468px;
+    height:60px; 
+    top: 5px;
+    opacity: 0;
+}
+#frame5txt{
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: url("f5.png");
+	width:468px;
+    height:60px; 
+    opacity: 0;
+}
+#replay_icon{
+	opacity: 0;
+	position: absolute;
+}
+#replay_container{
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	top: 3px;
+	left: 4px;
+}
